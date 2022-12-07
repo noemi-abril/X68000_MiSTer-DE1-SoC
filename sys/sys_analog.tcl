@@ -72,8 +72,8 @@ set_location_assignment PIN_J7 -to AUD_DACDAT
 set_location_assignment PIN_H8 -to AUD_DACLRCK
 set_location_assignment PIN_G7 -to AUD_XCK
 
-set_location_assignment PIN_J12 -to I2C_SCLK
-set_location_assignment PIN_K12 -to I2C_SDAT
+set_location_assignment PIN_J12 -to AUD_I2C_SCLK
+set_location_assignment PIN_K12 -to AUD_I2C_SDAT
 
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to AUD_*
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to I2C_*
